@@ -8,12 +8,12 @@ async function main() {
         await conectarBaseDatos();
 
         const reserva = await Reserva.create({
-            estudiante: "Mateo González",
-            email: "mateo.gonzalez@example.com",
+            estudiante: "Lucía Fernández",
+            email: "lucia.fernandezexample.com",
             sala: "Sala Sur",
             fecha: "2026-10-06",
-            turno: "Tarde",
-            personas: 4.8,
+            turno: "Mañana",
+            personas: dos,
         });
         
         console.log("Reserva guardada. _id:", reserva._id.toString());
